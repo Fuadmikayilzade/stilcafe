@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: rgb(236, 236, 236);  
+
+}
+
+.container2{
+  display: flex;
+  margin-top: 100px;
+}
+.class3{
+  margin-left: 5%;
+  width: 100%;
+}
+.classs4{
+  width: 100%;
+  margin-right: 5%;
+}
+
+.class4{
+  width: 100%;
+  height: auto;
+  padding-inline: 5%;
+  height: auto;
+  padding-bottom: 5%;
+
+}
+.text4{
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(255, 149, 0);
+  margin-top: 40px;
+
+}
+.text5{
+  color: rgb(187,187,187);
+  margin-top: 10%;
+  font-family: cursive;
+  font-size: 18px;
+
+}
+.text6{
+  font-size: 25px;
+   color: black;
+   font-family: cursive;
+}
+.text7{
+  margin-top: 45px;
+  font-size: 22px;
+  color: black;
+  font-family: cursive;
+  color: rgb(40, 184, 40);
+
+}
+.receipts{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.receipt{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+
+}
+.picture1{
+  width: 100%;
+  height: 110px;
+}
+.text8{
+  font-size: 18px;
+  color: grey;
+  font-family: cursive;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.receipt:hover .picture1 {
+  transform: scale(0.93); /* Hover durumunda ölçek değişimi */
+}
+
+.receipt:hover .text8 {
+  color: rgb(255, 149, 0);
+}
+
+@media screen and (min-width: 620px) {
+  .picture1{
+    height: 110;
+  }
+  .receipts{
+display: flex;}
+}
+
+@media screen and (max-width: 620px){
+  .receipts{
+    gap: 10px;
+    flex-direction: column;
+  }
+  .picture1{
+    height: 200px;
+  }
+
+}
+
+@media screen and (max-width: 1038px) and (min-width: 820px) {
+  .picture1 {
+    height: 170px; /* 170 piksel yükseklik */
+  }
+}
+
+
+
+@media screen and (max-width: 1038px) {
+  .container2{
+    flex-direction: column;
+    margin: 0;
+  }
+  .class3{
+    width: 100%;
+    margin: 0;
+    height: 700px;
+  }
+  .class4{
+    padding-right: 0;
+    padding: 4%;
+  }
+  .text7{
+    padding-left: 1.5%;
+  }
+
+}
+
+
+@media screen and (max-width: 1038px) {
+  .class6{
+    display: block;
+    flex-direction: column;
+    padding-inline: 0;
+  }
+  .rezerv{
+    padding-inline: 3%;
+  }
+  .picture3{
+    width: 100%;
+  }
+  .map{
+    width: 100%;
+  }
+  .footer{
+    flex-direction: column;
+    display: block;
+  }
+
+  .adress{
+    margin-top: 30px;
+  }
+}
+
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: black;
+display: flex;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 40px;
+}
+
+
+.adress1{
+  display: flex;
+  gap: 15px;
+  color: white;
+}
+
+.adress2{
+  display: flex;
+  gap: 15px;
+  color: white;
+  margin-top: 5px;
+}
+
+.adress{
+  flex-direction: column;
+  padding-inline: 5%;
+  color: rgb(255, 149, 0);
+}
+
+.instagram{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.insbtn{
+  width: 180px;
+  height: 45px;
+  color: white;
+  padding-bottom: 2px;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(243,73,73);
+  background-color: transparent;
+  border-radius: 6px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.insbtn:hover{
+  background-color: rgb(243,73,73);
+}
+
+.aboutcafe {
+  transition: opacity 1s, transform 1s;
+  opacity: 0;
+  transform: scaleY(0)  }
+
+.aboutcafe.animate {
+  opacity: 1;
+  transform: scaleY(1)  }
+
+.picture2 {
+  width: 100%; /* Şəkilin ölçüsünü tənzimləyin */
+}

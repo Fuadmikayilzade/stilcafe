@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: rgb(236, 236, 236);  
+
+}
+
+.maincubs{
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.cubs{
+    display: flex;
+    gap: 50px;
+    
+}
+
+
+.res1{
+    display: flex;
+    gap: 50px;
+}
+
+.res2{
+    display: flex;
+    gap: 50px;
+}
+
+.cub{
+    border: 1.5px solid grey;
+    width: 220px;
+    height: 300px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+
+
+}
+
+.texts{
+    font-size: 20px;
+}
+li:hover{
+    color: black;
+}
+
+.btn1{
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
+@media screen and (max-width: 1122px) {
+    .cubs{
+        display: block;
+        flex-direction: column;
+    }
+    .res1{
+        display: flex;
+        gap: 50px;
+    }
+    .res2{
+        display: flex;
+        gap: 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .cubs{
+        display: block;
+        flex-direction: column;
+    }
+    .res1{
+        display: block;
+        flex-direction: column;
+
+        gap: 50px;
+    }
+    .res2{
+        display: block;
+        flex-direction: column;
+
+        gap: 50px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1038px) {
+    .class6{
+      display: block;
+      flex-direction: column;
+      padding-inline: 0;
+    }
+    .rezerv{
+      padding-inline: 3%;
+    }
+    .picture3{
+      width: 100%;
+    }
+    .map{
+      width: 100%;
+    }
+    .footer{
+      flex-direction: column;
+      display: block;
+    }
+  
+    .adress{
+      margin-top: 30px;
+    }
+  }
+  
+  
+  .footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  }
+  
+  
+  .adress1{
+    display: flex;
+    gap: 15px;
+    color: white;
+  }
+  
+  .adress2{
+    display: flex;
+    gap: 15px;
+    color: white;
+    margin-top: 5px;
+  }
+  
+  .adress{
+    flex-direction: column;
+    padding-inline: 5%;
+    color: rgb(255, 149, 0);
+  }
+  
+  .instagram{
+      display: flex;
+      gap: 10px;
+      color: white;
+  }
+  
+  .insbtn{
+    width: 180px;
+    height: 45px;
+    color: white;
+    padding-bottom: 2px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(243,73,73);
+    background-color: transparent;
+    border-radius: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .insbtn:hover{
+    background-color: rgb(243,73,73);
+  }
